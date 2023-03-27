@@ -1,3 +1,8 @@
+Hospital Management System
+Hospital Management System using MySQL, Php and Bootstrap
+
+Video Demo : Hospital Management System - Youtube
+
 Need to work on:
 
 
