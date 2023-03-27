@@ -1,0 +1,94 @@
+1. Which of the following statements is correct?
+
+    1.A reference is useful, when we intend to change the values of actual arguments through the function call.
+    2.A reference is useful, when we want to save memory by preventing the ceation of large structure variable that are        being passed to the function.
+2. What is output of following code?                                                                                                                                 #include<iostream>
+using namespace std;
+
+int main()
+{
+	int i;
+	int arr[4]={10,20,30,40};
+	int (&k)[4]=arr;
+	for(i=0;i<4;i++)
+	cout<<k[i]<<" ";
+
+	return 0;
+}
+3. what is meaning of following statement?                                                                                                                      #include<iostream>                                                                                                                                                    using namespace std;                                                                                                                                                  int main()                                                                                                                                                                    {                                                                                                                                                                                      int &a=5;                                                                                                                                                                      cout<<a<<endl;                                                                                                                                                          return 0;                                                                                                                                                                     }
+4. Which of the following statements are incorrect related to malloc() function?
+5. 2.Which of the following is true about new when compared with malloc.
+1) new is an operator, malloc is a function
+2) new calls constructor, malloc doesn’t
+3) new returns appropriate pointer, malloc returns void * and pointer needs to typecast to appropriate type.
+6. Pick the correct statement about references.
+7. What will be the output of the following C++ code?
+ #include<iostream>
+ using namespace std;
+ int main(void)
+ {
+	int &num;
+	int a=5;
+	&num=a;
+	cout<<num;
+	return 0;
+ }
+8. Which of the following is used to release the dynamically allocated memory in CPP if we allocate memory using operator?
+9. During dynamic memory allocation in C++, what happens if a new operator fails to allocate memory?
+10. Which of the following statements are correct in context of below code in C++?
+
+#include<iostream>
+#include<stdlib.h>
+using namespace std;
+int main( void )
+{
+    int *p = malloc(10);
+
+
+
+
+
+Correct Answers: 6
+
+
+1. What is the index number of the last element of an array with 9 elements?
+2. If a copy constructor is not defined in a class then
+3. Syntax for Copy constructor is
+4. _________ is called when a new object is created from an existing object, as a copy of the existing object
+5. Default copy constructor does __________
+6. Which of the following scenario deep copies generally required?
+7. Which of the following is/are automatically added to every class, if the programmer does not write it in the class?
+8. When a copy constructor may be called?
+9. What will be the output of the following C++ code?
+#include<iostream>
+using namespace std;
+class Point
+{
+    int x;
+public:
+    Point(int x)
+	{
+    	this->x = x;
+	}
+    Point(const Point p)
+    {
+    	x = p.x;
+    }
+    int getX()
+    {
+    	return x;
+    }
+};
+int main()
+{
+   Point p1(10);
+   Point p2 = p1;
+   cout << p2.getX();
+   return 0;
+}
+10. Which of the following gives the address of the first element in array?
+Answers
+1. array[0];
+2. array[1];
+3. array(2);
+4. array;
